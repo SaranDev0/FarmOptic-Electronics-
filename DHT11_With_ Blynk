@@ -1,16 +1,11 @@
 #define BLYNK_PRINT Serial
- 
-#define BLYNK_TEMPLATE_ID "TMPL4fIsXXyYZ"
-#define BLYNK_TEMPLATE_NAME "DHT"
-#define BLYNK_AUTH_TOKEN "NLgUPwFZ5n75yGe1XO83wuO4kQ1JNN4r"
-
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include <DHT.h>
  
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "NLgUPwFZ5n75yGe1XO83wuO4kQ1JNN4r";
+char auth[] = "";
  
 // Your WiFi credentials.
 // Set password to "" for open networks.
